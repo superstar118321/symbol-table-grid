@@ -2,11 +2,16 @@
 
 export default {
   '/': {
-    H1: { text: 'Hello Symbols' },
-    P: { text: 'Lorem ipsum dolor sit amet' }
+    H1: 'Hello Symbols',
+    P: 'This is the Home page. Below is the new GridSelection.',
+    GridSelection: {}
   },
   '/about': {
-    H3: { text: 'This is Symbols starter-kit' },
-    P: { text: 'Lorem ipsum dolor sit amet' }
+    H3: 'This is Symbols starter-kit',
+    P: 'Lorem ipsum dolor sit amet',
+    Link: {
+      href: '/',
+      text: 'Go Back'
+    }
   }
 }
